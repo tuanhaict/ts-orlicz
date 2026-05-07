@@ -23,7 +23,6 @@ from methods.sswd import sswd_unif as sliced_wasserstein_sphere_uniform
 from methods.s3wd import s3wd, ri_s3wd, ari_s3wd
 from methods.swd import swd
 from methods.stswd import stswd
-from methods.sbstsd import sbsts
 from methods.osbstsd import osbsts
 @dataparser
 class Options:

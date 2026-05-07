@@ -28,7 +28,6 @@ import time
 
 import wandb
 from db_tsw.db_tsw import TWConcurrentLines
-from db_tsw.sb_tsw import Sb_TSConcurrentLines 
 from db_tsw.osb_tsw import OSb_TSConcurrentLines
 from db_tsw.utils import generate_trees_frames
 

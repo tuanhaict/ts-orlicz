@@ -18,7 +18,7 @@ sys.path.append('../')
 import utils.vmf as vmf_utils
 import utils.plot as plot_utils
 from utils.func import set_seed
-from methods import s3wd, sswd, stswd, sbstsd, osbstsd, lssotd
+from methods import s3wd, sswd, stswd, osbstsd, lssotd
 
 def plot_result(X, out_path):
     k = gaussian_kde(X.T)
