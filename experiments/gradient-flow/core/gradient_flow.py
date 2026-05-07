@@ -1,12 +1,10 @@
 import numpy as np
 
-from db_tsw.n_tsw import NTWConcurrentLines
 import torch
 from torch import optim
 from db_tsw.osb_tsw import OSb_TSConcurrentLines
 import ot
 from db_tsw.db_tsw import TWConcurrentLines
-from db_tsw.sb_tsw import Sb_TSConcurrentLines 
 from db_tsw.utils import generate_trees_frames
 from db_tsw.nln_tsw import TSW
 class Tree():
